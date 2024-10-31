@@ -25,7 +25,7 @@ private lateinit var noParamViewModel: NoParamViewModel // ViewModel without par
 
 // Initializing using the `by viewModels` delegate
 private val noParamViewModel: NoParamViewModel by viewModels()
-
+```
 
 ```text
 (NoParamViewModel) creation time = 31st Oct 2024 at 11:28:50 PM  (664)
@@ -34,3 +34,4 @@ private val noParamViewModel: NoParamViewModel by viewModels()
 (ParamViewModel) creation time = 31st Oct 2024 at 11:28:50 PM  (704) and value is = Data from frag 1
 (ParamViewModel) creation time = 31st Oct 2024 at 11:28:56 PM  (694) and value is = Data from Ac 2 
 (NoParamViewModel) creation time = 31st Oct 2024 at 11:28:56 PM  (696)
+```
