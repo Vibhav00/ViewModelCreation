@@ -27,6 +27,7 @@ private lateinit var noParamViewModel: NoParamViewModel // ViewModel without par
 private val noParamViewModel: NoParamViewModel by viewModels()
 ```
 
+## Logcat 😼🐈‍⬛
 ```text
 (NoParamViewModel) creation time = 31st Oct 2024 at 11:28:50 PM  (664)
 (ParamViewModel) creation time = 31st Oct 2024 at 11:28:50 PM  (672) and value is = Data from Ac 1
